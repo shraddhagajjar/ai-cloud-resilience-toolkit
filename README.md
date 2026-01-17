@@ -75,7 +75,31 @@ The demo generates a CSV file named `demo_output.csv` containing:
 - recommended replica counts
 - scaling decision reasoning
 
+
 ---
+
+AI Cloud Resilience Toolkit – Local Simulation
+----------------------------------------------
+
+Loading system metrics...
+Analyzing CPU, memory, and request load patterns...
+
+Detected anomaly:
+ - CPU utilization spike detected at 14:32
+ - Current CPU usage: 87%
+ - Baseline threshold: 65%
+
+AI Recommendation:
+ - Scale service replicas from 4 → 6
+ - Enable predictive monitoring for next 15 minutes
+
+Action Taken:
+ - Auto-scaling policy simulated
+ - Resilience score improved from 0.71 → 0.89
+
+Simulation completed successfully.
+Output saved to: demo_output.csv
+
 
 ## Author
 
