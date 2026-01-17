@@ -58,6 +58,23 @@ This project is released as an open-source initiative to promote knowledge shari
 
 Community feedback, research collaboration, and technical contributions are encouraged.
 
+## Quick Start (Demo)
+
+This repository includes a small reproducible demo using synthetic cloud telemetry data.
+
+### Run locally
+1. Install dependencies:
+   - `pip install -r requirements.txt`
+
+2. Run the demo:
+   - `python main.py`
+
+### Output
+The demo generates a CSV file named `demo_output.csv` containing:
+- anomaly scores over time
+- recommended replica counts
+- scaling decision reasoning
+
 ---
 
 ## Author
